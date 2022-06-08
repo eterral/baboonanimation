@@ -1,0 +1,49 @@
+.card{
+    width:40vw;
+    height:20vh;
+    display: flex;
+    flex-direction: row;
+}
+.top-circle{
+    border-radius: 50%;
+    border: 2px solid #9C9C9C;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    z-index: 3;
+}
+
+.bio{
+    position: relative;
+    left: -40px;
+    border-radius: 25px;
+    border: 2px solid #9C9C9C;
+    background-color: #ffffff;
+    width: 20vw;
+    height: 150px;
+    padding: 10px 20px 20px 40px;
+    z-index: 1;
+}
+
+.bio-modal{
+    margin-left: 150px;
+}
+
+.bottom-circle{
+    position: relative;
+    background-color: red;
+    border-radius: 50%;
+    border: 2px solid #9C9C9C;
+    padding: 5px;
+    width: 100px;
+    height: 100px;
+    bottom: -80px;
+    text-align: center;
+    display: inline-block;
+    z-index: 2;
+}
+
+.card-text{
+    padding-top: 10px;
+    color: white;
+}

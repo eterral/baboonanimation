@@ -1,0 +1,7 @@
+.about-container{
+    margin-left: 10vw;
+    margin-right: 10vw;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}

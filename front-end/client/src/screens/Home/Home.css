@@ -1,5 +1,5 @@
 .cimg{
-    max-width: 33vw;
+    width: 33vw;
 }
 
 .clogo{
@@ -26,11 +26,11 @@
     left: 100px;
 }
 .home-text{
-    margin: auto;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    margin-left: 20vw;
-    margin-right: 20vw;
+    /* margin: auto; */
+    margin-left: 3vw;
+    padding-top: 5x;
+    padding-bottom: 25px;
+    margin-right: 40vw;
 
 }
 

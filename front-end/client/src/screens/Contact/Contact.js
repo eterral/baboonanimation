@@ -9,7 +9,7 @@ export default function Contact() {
     firstName: "",
     lastName: "",
     company: "",
-    emailAddress: false,
+    emailAddress: "",
     emailBody: "",
   });
 
@@ -45,6 +45,7 @@ export default function Contact() {
             <form className="email-form">
               <div className="form-row-one">
                 <input
+                  className="input-field"
                   required
                   type="text"
                   name="firstName"
@@ -53,6 +54,7 @@ export default function Contact() {
                   onChange={handleChange}
                 />
                 <input
+                  className="input-field"
                   required
                   type="text"
                   name="lastName"
@@ -63,6 +65,7 @@ export default function Contact() {
               </div>
               <input
                 required
+                className="input-field"
                 type="text"
                 name="company"
                 value={form.company}
@@ -71,6 +74,7 @@ export default function Contact() {
               />
               <input
                 required
+                className="input-field"
                 type="email"
                 name="emailAddress"
                 value={form.emailAddress}
@@ -79,15 +83,18 @@ export default function Contact() {
               />
               <input
                 required
-                type="text"
+                className="input-field-body"
+                type="textfield"
                 name="emailBody"
                 value={form.emailBody}
                 placeholder=""
                 onChange={handleChange}
               />
-              <button type="submit" className="send-button">
-                Submit
-              </button>
+              <div className="submit-row">
+                <button type="submit" className="send-button">
+                  Submit
+                </button>
+              </div>
             </form>
           </div>
         </div>

@@ -4,6 +4,8 @@ import { Link } from "react-router-dom";
 import "react-multi-carousel/lib/styles.css";
 import "../Home/Home.css";
 
+import background from "../../Assets/About (3) 1.png";
+
 import powerpuff_headliner from "../../Assets/headliners/WEBSITE_HEADLINER_Powerpuff_Girls_FC_052322_(1).png";
 import rickmorty_headliner from "../../Assets/headliners/WEBSITE_HEADLINER_Rick_and_Morty_FC_052322_(1).png";
 import sesamestreet_headliner from "../../Assets/headliners/WEBSITE_HEADLINER_Sesame_St_FC_052322_(1).png";
@@ -19,7 +21,14 @@ import voices_banner from "../../Assets/WEBSITE ART voice actor collage NB 06032
 export default function Home() {
   return (
     <Layout>
-      <div>
+      <div style={{ backgroundImage: `url(${background})` }}>
+        <p className="home-text">
+          Founded by <b>DREAMWORKS</b> alumnus <b>Mike de Seve</b>, Baboon has
+          grown to become one of the most accomplished animation writing and
+          voicing teams worldwide, with <b>31 EMMYS</b> collectively, and
+          credits on dozens of the most popular animated films and series for
+          families and teens. <b>Learn More</b>
+        </p>
         <Carousel
           additionalTransfrom={0}
           arrows={false}
@@ -83,13 +92,6 @@ export default function Home() {
             <img className="cimg" src={sesamestreet_headliner} />
           </div>
         </Carousel>
-        <p className="home-text">
-          Founded by <b>DREAMWORKS</b> alumnus <b>Mike de Seve</b>, Baboon has
-          grown to become one of the most accomplished animation writing and
-          voicing teams worldwide, with <b>31 EMMYS</b> collectively, and
-          credits on dozens of the most popular animated films and series for
-          families and teens. <b>Learn More</b>
-        </p>
         <Link
           to="/diversity"
           style={{ textDecoration: "none", color: "black" }}
@@ -128,6 +130,7 @@ export default function Home() {
               itemClass=""
               keyBoardControl
               minimumTouchDrag={80}
+              partialVisbile={true}
               renderButtonGroupOutside={false}
               renderDotsOutside={false}
               responsive={{
@@ -158,7 +161,7 @@ export default function Home() {
               }}
               showDots={false}
               sliderClass=""
-              slidesToSlide={0.5}
+              slidesToSlide={0.1}
               swipeable
               transitionDuration={1000}
             >
