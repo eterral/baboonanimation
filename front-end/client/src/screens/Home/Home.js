@@ -105,6 +105,13 @@ export default function Home() {
           style={{ textDecoration: "none", color: "black" }}
         >
           <h2>Leaders in Diversity</h2>
+          <p className="home-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non nec
+            suspendisse purus, massa tellus risus. Cursus malesuada pulvinar
+            sagittis eget. Quis convallis viverra sit risus. Lorem ipsum dolor
+            sit amet, consectetur adipiscing elit. Non nec suspendisse purus,
+            massa tellus risus. <b>Learn More</b>
+          </p>
           <div className="diversity-home">
             <img
               className="home-diversity-img"
@@ -123,13 +130,6 @@ export default function Home() {
               src="/home/garbage boy pic.png"
             />
           </div>
-          <p className="home-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non nec
-            suspendisse purus, massa tellus risus. Cursus malesuada pulvinar
-            sagittis eget. Quis convallis viverra sit risus. Lorem ipsum dolor
-            sit amet, consectetur adipiscing elit. Non nec suspendisse purus,
-            massa tellus risus. <b>Learn More</b>
-          </p>
         </Link>
         <Link to="/clients" style={{ textDecoration: "none", color: "black" }}>
           <h2>Globally Recognized Clients</h2>
