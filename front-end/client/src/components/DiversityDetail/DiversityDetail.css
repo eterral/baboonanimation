@@ -1,0 +1,20 @@
+
+.detail-container{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.detail-container-left{
+    width: 40vw;
+    margin-left: 10vw;
+}
+
+.detail-image{
+    width: 40vw;
+}
+
+.detail-container-right{
+    margin-right: 10vw;
+    margin-left: 20px;
+}

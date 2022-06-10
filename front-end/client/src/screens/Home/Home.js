@@ -106,10 +106,22 @@ export default function Home() {
         >
           <h2>Leaders in Diversity</h2>
           <div className="diversity-home">
-            <div>Diversity Image 1</div>
-            <div>Diversity Image 2</div>
-            <div>Diversity Image 3</div>
-            <div>Diversity Image 4</div>
+            <img
+              className="home-diversity-img"
+              src="/home/garbage boy pic.png"
+            />
+            <img
+              className="home-diversity-img"
+              src="/home/garbage boy pic.png"
+            />
+            <img
+              className="home-diversity-img"
+              src="/home/garbage boy pic.png"
+            />
+            <img
+              className="home-diversity-img"
+              src="/home/garbage boy pic.png"
+            />
           </div>
           <p className="home-text">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non nec

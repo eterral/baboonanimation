@@ -9,7 +9,9 @@ import WorkCard from "../../components/WorkCard/WorkCard";
 export default function Work() {
   const allWorks = data;
   const [style, setStyle] = useState({ display: "none" });
-  const [displayWork, setDisplayWork] = useState(allWorks);
+  const [displayWork, setDisplayWork] = useState(
+    allWorks.filter((work) => work.features === "true")
+  );
   const [features, setFeatures] = useState(true);
   const [series, setSeries] = useState(false);
   const [originals, setOriginals] = useState(false);

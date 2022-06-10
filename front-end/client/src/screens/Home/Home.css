@@ -38,3 +38,12 @@
 h2{
     padding-left: 5vw;
 }
+
+.home-diversity-img{
+    width: 25vw;
+}
+
+.diversity-home{
+    display: flex;
+    
+}

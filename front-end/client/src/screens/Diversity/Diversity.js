@@ -1,5 +1,8 @@
 import "../Diversity/Diversity.css";
+import data from "../Diversity/diversityData.js";
 import Layout from "../../components/Layout/Layout";
+
+import { Link } from "react-router-dom";
 
 export default function Diversity() {
   return (
@@ -34,10 +37,13 @@ export default function Diversity() {
           </p>
         </div>
         <div className="diversity-images">
-          <p>image 1</p>
-          <p>image 2</p>
-          <p>image 3</p>
-          <p>image 4</p>
+          {data.map((work) => {
+            return (
+              <Link to={`/diversity/detail/${work.id}`}>
+                <img className="diversity-image" src={work.image} />
+              </Link>
+            );
+          })}
         </div>
       </div>
     </Layout>
