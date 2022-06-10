@@ -1,0 +1,42 @@
+.diversity-banner{
+    height: 62vh;
+    background: rgb(201, 211, 96);
+    background: linear-gradient(0deg, rgba(201, 211, 956,1) 0%, rgba(255, 255, 255,1), 50%);
+    position: relative;
+}
+
+.diversity-talent{
+    width: 15vw;
+    padding-left: 60px;
+    padding-top: 40px;
+}
+
+.diversity-character{
+    width: 40vw;
+    position: absolute;
+    top: 0;
+    right: 0
+}
+
+.diversity-headline-text{
+    padding-top: 40px;
+    top: 0;
+    left: 40%;
+    position: absolute;
+    margin-right: 30vw;
+}
+
+.diversity-bold{
+    font-size: 26px;
+    font-style: bold;
+    font-weight: 600;
+}
+
+
+.diversity-images{
+    display: flex;
+}
+
+.diversity-image{
+    width: 25vw;
+}

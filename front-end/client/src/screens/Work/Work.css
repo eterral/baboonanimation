@@ -1,0 +1,30 @@
+.work-desc{
+    padding-right: 50vw;
+    padding-left: 70px
+}
+.work-nav{
+    background-color: #F2133B;
+    width: 100%;
+    height: 40px
+}
+
+.work-nav-links{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    list-style: none;
+}
+.work-nav-item{
+    padding-left: 20px;
+    color: white;
+    padding-bottom: 20px;
+}
+
+.work-image{
+    width: 25vw;
+}
+.work-display-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}

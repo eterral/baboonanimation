@@ -1,0 +1,38 @@
+.work-container{
+    position: relative;
+}
+
+.work-overlay{
+    position: absolute;
+    bottom: 0;
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(226,226,226,1) 95%, rgba(152,152,152,1) 100%);
+    width: 100%;
+    height: 100%;
+    opacity: .8;
+}
+
+.overlay-text{
+    position:absolute;
+    bottom: 0;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.work-box-enter{
+    opacity: 0
+}
+
+.work-box-enter-active {
+    opacity: 1;
+    transition: opacity 500ms ease-in;
+}
+
+.work-box-exit {
+    opacity: 1;
+}
+
+.work-box-exit-active{
+    opacity: 1;
+    transition: opacity 500ms ease-in
+}

@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import "react-multi-carousel/lib/styles.css";
 import "../Home/Home.css";
 
-import background from "../../Assets/About (3) 1.png";
+import background from "../../Assets/About_(3)_1.png";
 
 import powerpuff_headliner from "../../Assets/headliners/WEBSITE_HEADLINER_Powerpuff_Girls_FC_052322_(1).png";
 import rickmorty_headliner from "../../Assets/headliners/WEBSITE_HEADLINER_Rick_and_Morty_FC_052322_(1).png";
@@ -21,7 +21,15 @@ import voices_banner from "../../Assets/WEBSITE ART voice actor collage NB 06032
 export default function Home() {
   return (
     <Layout>
-      <div style={{ backgroundImage: `url(${background})` }}>
+      <div
+        className="home-container"
+        style={{
+          backgroundImage: `url("${background}")`,
+          backgroundPosition: "center",
+          backgroundSize: "cover",
+          backgroundRepeat: "no-repeat",
+        }}
+      >
         <p className="home-text">
           Founded by <b>DREAMWORKS</b> alumnus <b>Mike de Seve</b>, Baboon has
           grown to become one of the most accomplished animation writing and
@@ -97,7 +105,7 @@ export default function Home() {
           style={{ textDecoration: "none", color: "black" }}
         >
           <h2>Leaders in Diversity</h2>
-          <div className="diversity-banner">
+          <div className="diversity-home">
             <div>Diversity Image 1</div>
             <div>Diversity Image 2</div>
             <div>Diversity Image 3</div>
