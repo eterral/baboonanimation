@@ -9,6 +9,7 @@
     align-items: center;
     box-shadow: 0px 0px 5px 0px rgba(128, 117, 117, 0.925);
     background-color: white;
+    height: 183px;
 }
 
 .nav-links{
@@ -16,22 +17,23 @@
     display: flex;
     justify-content: space-evenly;
     color: black;
-    margin-top: 20px;
+    padding-right: 100px;
 }
 
 .nav-item{
     display: inline-block;
-    padding: 10px 30px;
-    font-size: 1.5vw;
+    font-size: 30px;
+    padding-left: 50px;
+    font-family: "Montserrat";
 }
 
 .nav-text{
     text-decoration: none;
+    font-size: 30;
+    font-weight: medium;
 }
 
 .nav-logo{
     max-width: 20vw;
     margin-left: 20px;
-    margin-top: 20px;
-    margin-bottom: 5px;
 }

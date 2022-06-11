@@ -1,6 +1,10 @@
 
 .cimg{
-    width: 33.33vw;
+    width: 50vw;
+}
+
+.carousel-img{
+    width:50vw;
 }
 
 .clogo{
@@ -28,7 +32,6 @@
 }
 .home-text{
     /* margin: auto; */
-    margin-left: 3vw;
     padding-top: 5x;
     padding-bottom: 25px;
     margin-right: 40vw;
@@ -36,7 +39,11 @@
 }
 
 h2{
-    padding-left: 5vw;
+    margin-left: 150px;
+    font-size: 64px;
+    margin-top: 32px;
+    margin-bottom: 25px;
+    font-family: "Montserrat";
 }
 
 .home-diversity-img{
@@ -45,5 +52,12 @@ h2{
 
 .diversity-home{
     display: flex;
-    
+
+}
+
+p{
+    font-size: 33px;
+    margin-left: 150px;
+    margin-bottom: 72px;
+    font-family: "Open Sans";
 }
