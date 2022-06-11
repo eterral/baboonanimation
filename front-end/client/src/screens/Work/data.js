@@ -1,6 +1,6 @@
 export default [
   {
-    image: "/work/WEBSITE_HEADLINER_Powerpuff_Girls_FC_052322_(1).png",
+    image: "/work/WEBSITE ART 16 Hudson  KT 060222 DEVELOPMENT.png",
     branded: "true",
     voice: "true",
     originals: "true",
@@ -11,7 +11,8 @@ export default [
     id: 1,
   },
   {
-    image: "/work/WEBSITE_HEADLINER_Rick_and_Morty_FC_052322_(1).png",
+    image:
+      "/work/WEBSITE ART A Stork's Journey 2 CK 060822 VOICE FEATURE DEVELOPMENT.png",
     branded: "true",
     voice: "true",
     originals: "true",

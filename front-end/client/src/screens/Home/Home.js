@@ -89,8 +89,8 @@ export default function Home() {
         > */}
         <Carousel
           additionalTransfrom={0}
-          arrows
-          autoPlaySpeed={1000}
+          autoPlay={true}
+          autoPlaySpeed={3000}
           centerMode={true}
           className=""
           containerClass="container"
