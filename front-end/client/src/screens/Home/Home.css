@@ -46,7 +46,9 @@ h2{
     margin-bottom: 25px;
     font-family: "Montserrat", sans-serif;
 }
-
+.c-head{
+    padding-top: -20px;
+}
 .home-diversity-img{
     width: 25vw;
 }
