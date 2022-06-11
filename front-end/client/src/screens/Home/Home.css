@@ -33,13 +33,15 @@
 }
 .home-text{
     /* margin: auto; */
-    padding-top: 5x;
+    padding-top: 15px;
     padding-bottom: 25px;
 }
-
+.home-container{
+    padding-top: 40px;
+}
 h2{
     margin-left: 150px;
-    font-size: 64px;
+    font-size: 48px;
     margin-top: 32px;
     margin-bottom: 25px;
     font-family: "Montserrat", sans-serif;
