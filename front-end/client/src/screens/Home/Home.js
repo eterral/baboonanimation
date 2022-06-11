@@ -34,14 +34,12 @@ export default function Home() {
           For more than two decades, Baboon Animation's team members have
           provided Emmy-winning and Oscar-nominated writing, directing, and
           voice to the most successful animation studios and networks in the
-          world..
-          <br />
-          Founded by DREAMWORKS alumnus Mike de Seve, Baboon has grown to become
-          one of the most accomplished animation writing and voicing teams
-          worldwide, with 31 EMMYS collectively, and credits on dozens of the
-          most popular animated films and series for families and teens. Baboon
-          is commited to writing, developing, and voicing content for and by
-          underrepresented groups.
+          world. Founded by DREAMWORKS alumnus Mike de Seve, Baboon has grown to
+          become one of the most accomplished animation writing and voicing
+          teams worldwide, with 31 EMMYS collectively, and credits on dozens of
+          the most popular animated films and series for families and teens.
+          Baboon is commited to writing, developing, and voicing content for and
+          by underrepresented groups.
         </p>
         {/* <Carousel
           additionalTransfrom={0}
@@ -159,11 +157,10 @@ export default function Home() {
         >
           <h2>Leaders in Diversity</h2>
           <p className="home-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non nec
-            suspendisse purus, massa tellus risus. Cursus malesuada pulvinar
-            sagittis eget. Quis convallis viverra sit risus. Lorem ipsum dolor
-            sit amet, consectetur adipiscing elit. Non nec suspendisse purus,
-            massa tellus risus. <b>Learn More</b>
+            With our new Warner Bros. show, Garbage Boy & Trash Can by African
+            creator Ridwan Moshood, we're launching Baboon Africa. We now boast
+            the very best of talent in writing, comedy, and acting in Africa and
+            the US! <b>Learn More</b>
           </p>
           <div className="diversity-home">
             <img
