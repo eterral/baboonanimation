@@ -35,8 +35,6 @@
     /* margin: auto; */
     padding-top: 5x;
     padding-bottom: 25px;
-    margin-right: 40vw;
-
 }
 
 h2{
@@ -57,8 +55,9 @@ h2{
 }
 
 p{
-    font-size: 33px;
+    font-size: 25px;
     margin-left: 150px;
     margin-bottom: 72px;
     font-family: "Open Sans", sans-serif;
+    margin-right: 150px
 }

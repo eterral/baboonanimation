@@ -34,7 +34,7 @@ export default function Home() {
           For more than two decades, Baboon Animation's team members have
           provided Emmy-winning and Oscar-nominated writing, directing, and
           voice to the most successful animation studios and networks in the
-          world.
+          world..
           <br />
           Founded by DREAMWORKS alumnus Mike de Seve, Baboon has grown to become
           one of the most accomplished animation writing and voicing teams
