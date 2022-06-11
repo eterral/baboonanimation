@@ -31,11 +31,17 @@ export default function Home() {
         }}
       >
         <p className="home-text">
-          Founded by <b>DREAMWORKS</b> alumnus <b>Mike de Seve</b>, Baboon has
-          grown to become one of the most accomplished animation writing and
-          voicing teams worldwide, with <b>31 EMMYS</b> collectively, and
-          credits on dozens of the most popular animated films and series for
-          families and teens. <b>Learn More</b>
+          For more than two decades, Baboon Animation's team members have
+          provided Emmy-winning and Oscar-nominated writing, directing, and
+          voice to the most successful animation studios and networks in the
+          world.
+          <br />
+          Founded by DREAMWORKS alumnus Mike de Seve, Baboon has grown to become
+          one of the most accomplished animation writing and voicing teams
+          worldwide, with 31 EMMYS collectively, and credits on dozens of the
+          most popular animated films and series for families and teens. Baboon
+          is commited to writing, developing, and voicing content for and by
+          underrepresented groups.
         </p>
         {/* <Carousel
           additionalTransfrom={0}

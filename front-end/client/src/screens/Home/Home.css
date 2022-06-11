@@ -1,4 +1,5 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 .cimg{
     width: 50vw;
 }
@@ -43,7 +44,7 @@ h2{
     font-size: 64px;
     margin-top: 32px;
     margin-bottom: 25px;
-    font-family: "Montserrat";
+    font-family: "Montserrat", sans-serif;
 }
 
 .home-diversity-img{
@@ -59,5 +60,5 @@ p{
     font-size: 33px;
     margin-left: 150px;
     margin-bottom: 72px;
-    font-family: "Open Sans";
+    font-family: "Open Sans", sans-serif;
 }
