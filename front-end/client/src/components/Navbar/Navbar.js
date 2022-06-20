@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import logo from "../../Assets/WEBSITE_Logo_BABOON_Horizontal_TEMP_KT_051822.png";
 import "./Navbar.css";
 
@@ -6,49 +6,58 @@ export default function Navbar() {
   return (
     <div className="navbar">
       <div className="nav-logo">
-        <Link to="/" style={{ textDecoration: "none" }}>
+        <NavLink to="/" style={{ textDecoration: "none" }}>
           <img src={logo} className="nav-logo" />
-        </Link>
+        </NavLink>
       </div>
       <ul className="nav-links">
         <li className="nav-item">
-          <Link to="/work" style={{ textDecoration: "none", color: "black" }}>
+          <NavLink
+            to="/work"
+            style={{ textDecoration: "none", color: "black" }}
+          >
             Work
-          </Link>
+          </NavLink>
         </li>
         <li className="nav-item">
-          <Link to="/about" style={{ textDecoration: "none", color: "black" }}>
+          <NavLink
+            to="/about"
+            style={{ textDecoration: "none", color: "black" }}
+          >
             About
-          </Link>
+          </NavLink>
         </li>
         <li className="nav-item">
-          <Link
+          <NavLink
             to="/diversity"
             style={{ textDecoration: "none", color: "black" }}
           >
             Diversity
-          </Link>
+          </NavLink>
         </li>
         <li className="nav-item">
-          <Link to="/voices" style={{ textDecoration: "none", color: "black" }}>
+          <NavLink
+            to="/voices"
+            style={{ textDecoration: "none", color: "black" }}
+          >
             Voices
-          </Link>
+          </NavLink>
         </li>
         <li className="nav-item">
-          <Link
+          <NavLink
             to="/clients"
             style={{ textDecoration: "none", color: "black" }}
           >
             Clients
-          </Link>
+          </NavLink>
         </li>
         <li className="nav-item">
-          <Link
+          <NavLink
             to="/contact"
             style={{ textDecoration: "none", color: "black" }}
           >
             Contact
-          </Link>
+          </NavLink>
         </li>
       </ul>
     </div>

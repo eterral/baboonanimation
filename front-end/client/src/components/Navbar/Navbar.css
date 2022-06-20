@@ -39,3 +39,7 @@
     max-width: 20vw;
     margin-left: 20px;
 }
+
+.active{
+    font-weight: bold;
+}
