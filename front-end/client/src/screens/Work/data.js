@@ -40,14 +40,14 @@ export default [
   {
     image:
       "/work/WEBSITE ART Amazing world of Gumball FC 051822 VOICE WRITING SERIES.png",
-    featuresDesc: "Russell Marcus, Voice Actor \n Tobi Wilson, Writer",
+    featuresDesc: `Russell Marcus, Voice Actor \n Tobi Wilson, Writer`,
     key: 7,
     category: "voice, writing, series",
   },
   {
     image:
       "/work/WEBSITE ART Angry Birds Toons JD LS 060722 WRITING SERIES BRANDS DEVELOPMENT.png",
-    featuresDesc: "Mike de Seve, Script Editor, Writer\nJoe Vitale, Writer",
+    featuresDesc: `Mike de Seve, Script Editor, Writer\nJoe Vitale, Writer`,
     key: 8,
     category: "writing, series, branded, development",
   },
@@ -75,7 +75,7 @@ export default [
   },
   {
     image: "/work/WEBSITE ART Beavis and Butthead CK 070822 SERIES.png",
-    featuresDesc: "Greg Grabiaski, Writer\nMike Seve, Director",
+    featuresDesc: `Greg Grabiaski, Writer\nMike Seve, Director`,
     key: 12,
     category: "writing, series",
   },
