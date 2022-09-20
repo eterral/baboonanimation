@@ -1,15 +1,10 @@
 export default [
   {
     image: "/work/WEBSITE ART 16 Hudson  KT 060222 DEVELOPMENT.png",
-    branded: "true",
-    voice: "true",
-    originals: "true",
-    series: "true",
-    features: "true",
-    featuresDesc: "testing",
-    seriesDesc: "series test",
+    featuresDesc:
+      "Developed by Baboon for groundbreakers in diversity Big Bad Boo (Bravest Knight).",
     key: 1,
-    category: "features, voice, series",
+    category: "development",
   },
   {
     image:
@@ -19,7 +14,8 @@ export default [
     originals: "true",
     series: "true",
     features: "false",
-    seriesDesc: "testing this",
+    featuressDesc:
+      "Baboon script-doctored and directed voices on this hit European film starring Jane Lynch and Drake Bell.",
     key: 2,
     category: "features, voice, series",
   },
