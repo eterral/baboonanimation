@@ -13,6 +13,7 @@ export default function Layout(props) {
           backgroundPosition: "center",
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat",
+          paddingTop: "40px",
         }}
       >
         {props.children}

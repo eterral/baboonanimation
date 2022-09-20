@@ -5,10 +5,19 @@ import WorkCard from "../WorkCard/WorkCard";
 import { useTransition, animated } from "react-spring";
 
 export default function WorkDisplay({ filteredItems, setSort }) {
+  // const transition = useTransition(filteredItems, {
+  //   from: { opacity: 0, transform: "translate3d (0, 800px, 0)" },
+  //   enter: { opacity: 1, transform: "translate3d (0, 0px, 0)" },
+  //   leave: { opacity: 0, transform: "translate3d (0, 800px, 0)" },
+  //   trail: 100,
+  //   reset: true,
+  //   order: ["leave", "enter", "update"],
+  // });
+
   const transition = useTransition(filteredItems, {
-    from: { opacity: 0, transform: "translate3d (0, 800px, 0)" },
-    enter: { opacity: 1, transform: "translate3d (0, 0px, 0)" },
-    leave: { opacity: 0, transform: "translate3d (0, 800px, 0)" },
+    from: { opacity: 0, x: -100, y: 800 },
+    enter: { opacity: 1, x: 0, y: 0 },
+    leave: { opacity: 0, x: -100, y: 800 },
     trail: 100,
     reset: true,
     order: ["leave", "enter", "update"],

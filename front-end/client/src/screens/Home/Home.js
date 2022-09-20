@@ -85,7 +85,7 @@ export default function Home() {
           autoPlay={true}
           autoPlaySpeed={3000}
           centerMode={true}
-          className=""
+          className="c-head"
           containerClass="container"
           dotListClass=""
           draggable

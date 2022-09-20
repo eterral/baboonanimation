@@ -58,6 +58,10 @@ h2{
 
 }
 
+.container{
+    z-index: 1;
+}
+
 p{
     font-size: 25px;
     margin-left: 150px;
