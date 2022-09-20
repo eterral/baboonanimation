@@ -132,6 +132,144 @@ export default [
     category: "writing, series",
   },
   {
+    image:
+      "/work/WEBSITE ART Cheeze n Nugget LM 052223 KT 061022 DEVELOPMENT ORIGINAL.png",
+    featuresDesc:
+      "Emmy award-winning company Baboon Animation has joined forces with Fonda Snyder and Israeli creators Neta Holzer and Allon Zaslansky to produce Cheez n Nugget – Gone Bad,. aA 2-D slapstick buddy comedy about the unlikely and undying friendship between two fun foods. ",
+    key: 20,
+    category: "development, originals",
+  },
+  {
+    image:
+      "/work/WEBSITE ART Cinder and Snow SL 060719 KT 061522 062222 DEVELOPMENT ORIGINAL.png",
+    featuresDesc:
+      "In this Baboon original, crime fighting duo Cinderella and Snow White, decendents of the famed princesses themselves, fight the evil lurking outside their home of Storybook town -- all without their parents ever finding out!",
+    key: 21,
+    category: "development, originals",
+  },
+  {
+    image: "/work/WEBSITE ART Cocomelon KT 060822 LS 061322 SERIES.png",
+    featuresDesc: "Pammy Salmon, Writer",
+    key: 22,
+    category: "series",
+  },
+  {
+    image: "/work/WEBSITE ART Comi and Bebe TK 061322 062222 SERIES VOICE.png",
+    featuresDesc:
+      "Baboon adapted and voiced this series from Lion Forge Animation.",
+    key: 23,
+    category: "voice, series",
+  },
+  {
+    image:
+      "/work/WEBSITE ART Cootie Academy KT 062222 VOICE WRITING DEVELOPMENT.png",
+    featuresDesc: "Baboon developed and wrote this Tencent series",
+    key: 24,
+    category: "voice, writing, development",
+  },
+  {
+    image: "/work/WEBSITE ART Cosmi Academy JD 060522 WRITING SERIES.png",
+    featuresDesc:
+      "Baboon wrote this series in collaboration with White Hall Animation & KimiKo Studio",
+    key: 25,
+    category: "writing, series",
+  },
+  {
+    image: "/work/WEBSITE ART Crabots KT 052622 DEVELOPMENT.png",
+    featuresDesc: "",
+    key: 26,
+    category: "",
+  },
+  {
+    image: "/work/WEBSITE ART Cupcake and Dino FC 051822 WRITING SERIES.png",
+    featuresDesc: "Aron Dunn, Writer",
+    key: 27,
+    category: "writing, series",
+  },
+  {
+    image: "/work/WEBSITE ART Dad Band KT 061522 062222 ORIGINAL.png",
+    featuresDesc:
+      "Dad Band follows the hilarious drama of--you guessed it--a band made up entirely of dads in this Baboon original podcast.",
+    key: 28,
+    category: "originals",
+  },
+  {
+    image: "/work/WEBSITE ART Diamond Danny KT 061522 DIVERSITY ORIGINAL.png",
+    featuresDesc:
+      "Two families race across America on a journey to find Grandpa Danny's hidden treasure first in this action-pack, hilarious animated series.",
+    key: 29,
+    category: "diversity, originals",
+  },
+  {
+    image:
+      "/work/WEBSITE ART Dinoster KT 061022 062222 WRITING SERIES DIVERSITY BRANDS DEVELOPMENT.png",
+    featuresDesc:
+      "Baboon story-edited, wrote, and voiced this series from FunnyFlux.",
+    key: 30,
+    category: "writing, series, diversity, branded, development",
+  },
+  {
+    image:
+      "/work/WEBSITE ART Ella Bella Bingo NB 052622 FEATURE DEVELOPMENT.jpg",
+    featuresDesc: "Douglas Booth, Mike Ryan, Joe vitale, Richelle Wilder",
+    key: 31,
+    category: "features, development",
+  },
+  {
+    image: "/work/WEBSITE ART Fairly Odd Parents GMJ 061022 WRITING SERIES.png",
+    featuresDesc: "John Fountain, Supervising Director",
+    key: 32,
+    category: "writing, series",
+  },
+  {
+    image:
+      "/work/WEBSITE ART Fairy 7 KT 071322 WRITING DIVERSITY DEVELOPMENT.png",
+    featuresDesc:
+      "Baboon developed and wrote this series for Shanghair-based animation company Benlai Pictures.",
+    key: 33,
+    category: "writing, series, diversity, development",
+  },
+  {
+    image:
+      "/work/WEBSITE ART Fathom Force KT 062322 BRANDS DEVELOPMENT ORIGINAL.png",
+    featuresDesc: "Baboon co-created this original adventure comedy",
+    key: 34,
+    category: "branded, development, originals",
+  },
+  {
+    image:
+      "/work/WEBSITE ART Foulies KT 052622 KT 061022 BRANDS DEVELOPMENT ORIGINALS.png",
+    featuresDesc:
+      "Baboon developed and co-owns this feature and series IP about creatures that are the opposite of fairies.",
+    key: 35,
+    category: "diversity, development, originals",
+  },
+  {
+    image: "/work/WEBSITE ART Fur Force 5 KT 062322 DEVELOPMENT ORIGINAL.png",
+    featuresDesc:
+      "Baboon developed this comedy-adventure with Asian-American co-creator Susan Kim",
+    key: 36,
+    category: "development, originals",
+  },
+  {
+    image: "",
+    featuresDesc: "",
+    key: 8,
+    category: "",
+  },
+  {
+    image: "",
+    featuresDesc: "",
+    key: 8,
+    category: "",
+  },
+  {
+    image: "",
+    featuresDesc: "",
+    key: 8,
+    category: "",
+  },
+  {
     image: "",
     featuresDesc: "",
     key: 8,
